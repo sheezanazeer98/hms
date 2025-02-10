@@ -8,7 +8,8 @@ import "@openzeppelin/contracts/access/Ownable.sol";
  * @dev A blockchain-based healthcare management system for patient and hospital interactions.
  * This contract allows registration, verification, data updates, and feedback submission.
  */
-contract HealthcareManagementSystem is Ownable {
+
+contract HealthcareManagementSystemOLD is Ownable {
     // Enum representing user roles
     enum Role { None, Patient, Hospital }
 

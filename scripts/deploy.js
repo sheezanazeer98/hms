@@ -2,6 +2,7 @@ const { ethers } = require("hardhat");
 const { parseEther } = require("ethers");
 
 async function main() {
+  console.log("AHSSKS");
   // Get the contract factory
   const contract = await ethers.getContractFactory("HealthcareManagementSystem");
 
